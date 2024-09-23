@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:#000;
+}
+#contact-section {
+    width: 100%;
+    height: calc(100vh - 10vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10vh;
+    /* background-image: url("https://img.freepik.com/free-vector/abstract-watercolor-background_23-2149069668.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1727049600&semt=ais_hybrid"); */
+}
+.contact-form {
+    background:#fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px ;
+    width: 100%;
+    max-width: 500px;
+}
+
+#name1{
+    height:35px;
+}
+.contact-form h2 {
+    margin-bottom: 20px;
+    color: orange;
+    text-align: center;
+    
+}
+.contact-form label {
+    margin-bottom: 5px;
+    display: block;
+}
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border:auto;
+    border-radius: 5px;
+}
+.contact-form button {
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.contact-form button:hover {
+    background-color: darkorange;
+}
+body {
+    background-color:#fff;
+    color: #000;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end; /* Right-align the items */
+    width: 100%;
+    height: 10vh;
+    background-color: orange;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    top:0;
+}
+
+ul {
+    list-style: none;
+    display: flex; /* Ensure items are in a single line */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 100px; /* Space between links */
+}
+
+nav a:last-child {
+    margin-right: 25; /* No margin on the last link */
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: darkred;
+}
+
+.information{
+    padding:20px;
+    padding-top:0;
+    margin:auto;
+    margin-top:0;
+}
+.welcome-section {
+    width: 100%;
+ height: calc(100vh - 10vh); /*Adjust height considering navbar */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/024/021/615/large_2x/orange-abstract-background-with-rays-and-a-speed-oncoming-lines-background-design-for-comic-or-other-image-with-16-9-aspect-ratio-free-photo.jpg");
+    /* height:10px; */
+}
+
+#name {
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+
+#sub {
+    font-size: 30px;
+    text-align: center;
+}
+figcaption{
+    margin: auto;
+    padding:20px;
+    justify-content: center;
+}
+.yt{
+    margin: auto;
+    margin-top:0;
+    padding:20px;
+    padding-bottom:0;
+    height:200px;
+}
+.proj{
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+}
+h2{
+    color:#000;
+    text-align: center;
+    padding-top:20;
+}
+
+@media (max-width: 1000px) and (min-width: 400px) {
+    nav {
+        justify-content: flex-end; /* Keep items right-aligned */
+    }
+    nav a {
+        margin: 0 10px; /* Adjust spacing for smaller screens */
+    }
+}
+
+@media (max-width: 400px) {
+    #name {
+        font-size: 40px; /* Smaller font size for mobile */
+    }
+    #sub {
+        font-size: 24px; /* Smaller font size for mobile */
+    }
+}
+
+section{
+    padding-top: 5%;
+}
